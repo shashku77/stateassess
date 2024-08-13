@@ -11,3 +11,11 @@ faiss-cpu
 langchain_google_genai
 google.generativeai
 langchain_google_genai
+psycopg2-binary
+pgvector==0.2.4
+azure-storage-blob==12.18.3
+unstructured==0.11.6
+azure-functions
+azure-storage-blob
+azure-identity
+requests
