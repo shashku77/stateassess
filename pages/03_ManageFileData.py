@@ -5,7 +5,7 @@ import streamlit as st
 import logging
 
 load_dotenv(find_dotenv('../.env'))
-st.image("./images/QSLogo.png", width = 300)
+st.image("./images/QSlogo.png", width = 300)
 st.header("StateAssessment Manage Files")
 
 def set_bg_hack_url():

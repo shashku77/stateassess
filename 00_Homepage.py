@@ -7,6 +7,7 @@ load_dotenv() # take environment variables from .env
 import streamlit as st
 import os
 
+
 client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 if "openai_model" not in st.session_state:
@@ -22,8 +23,11 @@ def get_openai_response(question):
 #initializing streamlit
 
 st.set_page_config(page_title="State Assessment")
-st.image("./images/QSLogo.png", width = 300)
+#st.write(os.getcwd())
+
+st.image("./images/QSlogo.png", width = 300)
 st.header("State Assessment application")
+
 
 if "mesg" not in st.session_state:
     st.session_state.mesg = []

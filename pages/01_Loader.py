@@ -19,7 +19,7 @@ from langchain.indexes import SQLRecordManager, index
 from langchain.docstore.document import Document
 
 load_dotenv(find_dotenv('../.env'))
-st.image("./images/QSLogo.png", width = 300)
+st.image("./images/QSlogo.png", width = 300)
 st.header("State Assessment File Loader")
 
 host = os.getenv("PG_VECTOR_HOST")
