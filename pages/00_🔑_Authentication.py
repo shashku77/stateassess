@@ -2,7 +2,7 @@
 
 
 import streamlit as st
-from modules.auth import (get_auth, get_login, get_register,
+from modules.auth import (get_auth, get_login, get_reg,
                           get_logout, get_forgot_password)
 
 st.image("./images/QSlogo.png", width = 300)
@@ -17,7 +17,8 @@ with tab1:
     
 
 with tab2:
-    get_register(authenticator)
+    if not st.session_state["authentication_status"]:
+        get_reg(authenticator)
 
 with tab3:
     if st.session_state["authentication_status"]:

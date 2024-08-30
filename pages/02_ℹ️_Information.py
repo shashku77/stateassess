@@ -31,7 +31,7 @@ COLLECTION_NAME = os.getenv("PGDATABASE")
 
 CONNECTION_STRING = f"postgresql+psycopg2://{user}:{password}@{host}:5432/{database}"
 
-embeddings = OpenAIEmbeddings(api_key=os.getenv("OPENAI_API_KEY"))
+embeddings = OpenAIEmbeddings(api_key=os.environ["OPENAI_API_KEY"])
 store = PGVector(
     collection_name=COLLECTION_NAME,
     connection_string=CONNECTION_STRING,
@@ -43,7 +43,7 @@ store = PGVector(
 
 retriever = store.as_retriever()
 
-model = ChatOpenAI()
+#model = ChatOpenAI()
 
 class Message(BaseModel):
     role: str
@@ -71,6 +71,11 @@ if clear:
 
 #get_row_count()
 
+if "open_api_key" in st.session_state and not "open_api_key" :
+    clientkey = st.session_state.open_api_key
+else:
+    clientkey = os.environ["OPENAI_API_KEY"]
+    
 
 # Initialize chat history
 if "messages" not in st.session_state:
@@ -115,7 +120,7 @@ _inputs = RunnableParallel(
         chat_history=lambda x: get_buffer_string(x["chat_history"])
     )
     | CONDENSE_QUESTION_PROMPT
-    | ChatOpenAI(temperature=0)
+    | ChatOpenAI(model="gpt-4o",temperature=0,api_key=clientkey)
     | StrOutputParser(),
 )
 
@@ -142,11 +147,9 @@ if prompt := st.chat_input("Submit Query"):
     with st.chat_message("assistant"):
         response = ask_question (prompt, st.session_state.conversation)
         st.markdown(response)
-        logging.error(prompt)
-        logging.error(f"Response: {response}")
         st.session_state.messages.append({"role": "assistant", "content": response})
         st.session_state.conversation.append(HumanMessage(content=prompt))
-        st.session_state.conversation.append(AIMessage(content=prompt))
+        st.session_state.conversation.append(AIMessage(content=response))
        
     
 

@@ -5,7 +5,8 @@ import os
 from dotenv import load_dotenv, find_dotenv
 #from langchain_google_genai import GoogleGenerativeAIEmbeddings
 #from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain_community.embeddings import OpenAIEmbeddings
+#from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 #import google.generativeai as genai
 #from langchain-community import OpenAI
 #from langchain.vectorstores import FAISS
@@ -55,11 +56,9 @@ def get_pdf_text(pdf_docs):
 
 def get_text_chunks(text):
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1024, chunk_overlap=100)
-    #chunks = text_splitter.split_text(text)
     docs = []
     for chunk in text_splitter.split_text(text):
         docs.append(Document(page_content=chunk, metadata={"source": "NIST", "path":"custompath", "others":"others"}))
-    #docs = text_splitter.create_documents(text)
     st.write(len(docs))
 
     #return chunks
@@ -71,7 +70,7 @@ def insert_vector_store(docs):
         docs,
         record_manager,
         vector_store,
-        cleanup="incremental",
+        cleanup=None,
         source_id_key="source",
     )
     st.write (result)

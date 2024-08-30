@@ -3,31 +3,37 @@ credentials:
     skumar:
       email: shashwat.kumar@quantumsmart.com
       name: Shashwat Kumar
-      password: '$2b$12$fEG4v1Tl.QJFoyZ0KiFV8uSYzRt/Rytadsx1SO0wnCcCB.9HSNdF6' # To be replaced with hashed password
+      password: $2b$12$fEG4v1Tl.QJFoyZ0KiFV8uSYzRt/Rytadsx1SO0wnCcCB.9HSNdF6
       role: admin
     akanjilal:
       email: anirban.kanjilal@quantumsmart.com
       name: Anirban Kanjilal
-      password: '$2b$12$3csIzLPnZQN4F6Ma4Kv3z.AT/hLkdYHECNSRQnru5HZDgiKHhRIqW' # To be replaced with hashed password
+      password: $2b$12$3csIzLPnZQN4F6Ma4Kv3z.AT/hLkdYHECNSRQnru5HZDgiKHhRIqW
       role: admin
     dlawy:
       email: dave.lawy@quantumsmart.com
       name: Dave Lawy
-      password: '$2b$12$GwnAH8pZYnhF3qxUE2zrdeZ13zsaY0QtlpvAr2SbpqHZ5THd/cZTC' # To be replaced with hashed password
+      password: $2b$12$GwnAH8pZYnhF3qxUE2zrdeZ13zsaY0QtlpvAr2SbpqHZ5THd/cZTC
       role: admin
     xqin:
       email: 23mb22@queensu.ca
       name: Susan Qin
-      password: '$2b$12$MWNWYOacM1PDT.oww41wzuP24sJTxYGeG/4e.WptUU2jx2NURHEOq' # To be replaced with hashed password
+      password: $2b$12$MWNWYOacM1PDT.oww41wzuP24sJTxYGeG/4e.WptUU2jx2NURHEOq
       role: user
     bcoderre:
       email: bena.coderre@quantumsmart.com
       name: Bena Coderre
-      password: '$2b$12$OHCPv2/yfuvnV5n4hNOvheTtcP5uM9KQ3TIX0t8aB1B4K6k2b5Z5i' # To be replaced with hashed password
+      password: $2b$12$OHCPv2/yfuvnV5n4hNOvheTtcP5uM9KQ3TIX0t8aB1B4K6k2b5Z5i
       role: user
+    sarthaks:
+      name: Sarthak Sinha
+      password: $2b$12$UNr863uUPYba8TXevZRps.LI.4kdcmc8AfdXFUvOvqzMBb5O3xuUC
+      email: sarthaks@gmail.com
+      logged_in: false
+      failed_login_attempts: 0
 cookie:
   expiry_days: 30
-  key: random_signature_key # Must be string
+  key: random_signature_key
   name: random_cookie_name
 preauthorized:
   emails:

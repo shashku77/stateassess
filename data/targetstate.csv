@@ -1,0 +1,111 @@
+Category,Subcategory,Statement,Current State,Future State
+People,Team collaboration,Communication - Our team communicates effectively both internally with each other and externally with our clients and partners,FALSE,FALSE
+People,Team collaboration,"Information Exchange - Our team has quick,secure and efficient access to company information at all times",FALSE,FALSE
+People,Team collaboration,Team Work - Our team uses company processes to work together efficiently on projects,FALSE,FALSE
+People,Team collaboration,Remote Access - Our teams are able to communicate quickly and efficiently while working from inside or out of the offi ce,FALSE,FALSE
+People,Team collaboration,Strategic Priority - Productive Team Collaboration is a key competitive advantage,FALSE,FALSE
+People,Employee productivity,Personal Productivity - We are able to capture and measure each employee productivity,FALSE,FALSE
+People,Employee productivity,Time Management - Our employees manage their time and schedule effectively,FALSE,FALSE
+People,Employee productivity,Priorities - Our employees effectively organize and properly prioritize their daily tasks,FALSE,FALSE
+People,Employee productivity,Self-Improvement - Our employees continually learn and develop their skills and talents,FALSE,FALSE
+People,Employee productivity,Strategic Priority - Employee productivity is a key competitive advantage,FALSE,FALSE
+People,Remote work readiness,Equipment - Our employees are equipped towork remotely as effectively as they can work from the company offices,FALSE,FALSE
+People,Remote work readiness,Accountability - Our remote employees are accountable and their progress is measured and reported regularly,FALSE,FALSE
+People,Remote work readiness,"External Collaboration - Our partners, clients and vendors can work with us as easily as internal employees",FALSE,FALSE
+People,Remote work readiness,Culture - We introduce and develop best practices for all employees who work remotely,FALSE,FALSE
+People,Remote work readiness,Strategic Priority - Our ability to work remotely is a competitive advantage,FALSE,FALSE
+Processes,Processes,Documentation - Key company processes and workflows are documented and consistently updated,FALSE,FALSE
+Processes,Processes,"Measurement - KPIs in each department are measured, review against performance goals daily/weekly/monthly",FALSE,FALSE
+Processes,Processes,"Improvement - It is the responsibility of everyone in our company to consistently utilize,support and evaluate key company processes",FALSE,FALSE
+Processes,Processes,"Accountability - Our processes are constantly reviewed, modified and further developed by the process owners",FALSE,FALSE
+Processes,Processes,Strategic Priority - Our process development and execution is a competitive advantage,FALSE,FALSE
+Processes,Projects,"Planning - Our team effectively manages project scope, project planning and project budget management",FALSE,FALSE
+Processes,Projects,"Execution - Our projects consistently finish as planned: on time, on budget and within project scope",FALSE,FALSE
+Processes,Projects, Accountability - Our projects team members held accountable for their project work,FALSE,FALSE
+Processes,Projects,Change Management - Our project processes allow teams to efficiently enforce change management policies,FALSE,FALSE
+Processes,Projects,Strategic Priority - The delivery of projects to our clients is a key competitive advantage,FALSE,FALSE
+Processes,Digital automation,Automation - Our team automates repetitive processes to be able to focus on higher value work,FALSE,FALSE
+Processes,Digital automation,Integration - Our team consistently identifies integration opportunities between different applications and systems,FALSE,FALSE
+Processes,Digital automation,Emerging Technologies - Our team leverages artificial intelligence technologies to increase efficiency,FALSE,FALSE
+Processes,Digital automation,Improvement - We consistently look for process automation opportunities and automate processes as much as possible,FALSE,FALSE
+Processes,Digital automation,Strategic Priority - The automation of tasks and processes are key competitive advantages,FALSE,FALSE
+Platform,Social media platforms,"Business Development - Our business development team is active and highly skilled in leveraging social media for PR, Marketing andSales",FALSE,FALSE
+Platform,Social media platforms,Clients - Our team utilizes tools and consistent programs to engage clients through social media,FALSE,FALSE
+Platform,Social media platforms,Team - Our team successfully uses social media to interact and build a strong culture within our organization,FALSE,FALSE
+Platform,Social media platforms,Governance - Our team understands the important differences between the personal and business uses of social media,FALSE,FALSE
+Platform,Social media platforms,Strategic Priority - Our use of social media is a key competitive advantage,FALSE,FALSE
+Platform,eCommerce platforms,Sales - Our team uses best-in-class(B2B/B2C/C2C) platforms to market and sell our products and services,FALSE,FALSE
+Platform,eCommerce platforms,Services - Our clients find our eCommerce platform easy to navigate and easy to use,FALSE,FALSE
+Platform,eCommerce platforms,Distribution - Our company is using digital platforms to generate and distribute products and services,FALSE,FALSE
+Platform,eCommerce platforms,Procurement - Our company leverages business purchasing platforms for effective procurement,FALSE,FALSE
+Platform,eCommerce platforms,Strategic Priority - Our use of eCommerce platforms is a key competitive advantage,FALSE,FALSE
+Platform,Service platforms,Finance - Our people utilize electronic bankingand financial platforms to achieve better cashflows and customer experience,FALSE,FALSE
+Platform,Service platforms,HR - Our team leverages electronic HR platforms to hire internal and external resources,FALSE,FALSE
+Platform,Service platforms,Operations - Our company leverages industry specific platforms to support operations,FALSE,FALSE
+Platform,Service platforms,"Education -Our team utilizes education, training and self learning platforms for employee development",FALSE,FALSE
+Platform,Service platforms,Strategic Priority - Our use of Service platforms is a key competitive advantage,FALSE,FALSE
+Application,Discovering applications,"Review - Our team has a process to review current applications utilization, education need,upgrades, new functions and integrations",FALSE,FALSE
+Application,Discovering applications,Requirements - Our team always defines the requirements before purchasing a software solution,FALSE,FALSE
+Application,Discovering applications,"Evaluation - Our team has a formal process to evaluate, test and select applications",FALSE,FALSE
+Application,Discovering applications,Roadmap - Our team has an application implementation roadmap to plan and execute application modernization,FALSE,FALSE
+Application,Discovering applications,"Strategic Priority - The ability to discover, select and implement new applications is a key competitive advantage",FALSE,FALSE
+Application,Implementing applications,Plan - Our team plans application implementations with stakeholders and key users,FALSE,FALSE
+Application,Implementing applications,Business Process - Our people plan application processes to fit into current company workfl ows,FALSE,FALSE
+Application,Implementing applications,Implementation Process - Our people manage application implementations as critical processes might disrupt normal operation,FALSE,FALSE
+Application,Implementing applications,Improvement - Our people emphasize and are diligent about learning applications and sharing ideas and best practices,FALSE,FALSE
+Application,Implementing applications,Strategic Priority - Our successful application implementation process is a key competitive advantage,FALSE,FALSE
+Application,Managing applications,"Subscription - Our people have a process to manage subscriptions, upgrades and downgrades to pay only as needed",FALSE,FALSE
+Application,Managing applications,Provisioning - Our team provisions application access properly so we are not overpaying or giving access to users who don't need them,FALSE,FALSE
+Application,Managing applications,Integrations - Our team has a formal process to evaluate the application portfolio and possible integrations,FALSE,FALSE
+Application,Managing applications,"Updates - Our team monitors application usage,utilization and opportunities to leverage newfunctions",FALSE,FALSE
+Application,Managing applications,Strategic Priority - The ROI of our applications is a key competitive advantage,FALSE,FALSE
+Information,Analyze data,Business Development - Our team has the tools and skills necessary to analyze and extract insight from all available sales/marketing metrics,FALSE,FALSE
+Information,Analyze data,Operations - Our team has the tools and skills necessary to analyze and extract insight from all available operations metrics,FALSE,FALSE
+Information,Analyze data,Financial - Our team has the tools and skills necessary to analyze and extract insight from all available financial metrics,FALSE,FALSE
+Information,Analyze data,Management - Our team has the tools and skills necessary to analyze and extract insight from all company performance metrics,FALSE,FALSE
+Information,Analyze data,Strategic Priority - Our ability to extract valuable insight from available data is a key competitive advantage,FALSE,FALSE
+Information,Reporting,Goals - Our team sets goals and can measure progress toward accomplishment,FALSE,FALSE
+Information,Reporting,"Cadence - Our team has regular reports daily,weekly and monthly with relevant, updated and clear data",FALSE,FALSE
+Information,Reporting,Alerting - Our team has proper alerts and notifications to react on different issues and problems on time,FALSE,FALSE
+Information,Reporting,"Tools - Our team has all tools necessary togather insights quickly key performance indicators, dashboards, alerts, analytics etc.)",FALSE,FALSE
+Information,Reporting,"Strategic Priority - Our ability for quick, real-time and accurate decisions is a key competitive advantage",FALSE,FALSE
+Information,Manage information,Access - Our team has a central location to access all information needed,FALSE,FALSE
+Information,Manage information,Control - Our team has proper access control over sensitive information,FALSE,FALSE
+Information,Manage information,Sharing - Our team shares information properly within the organization and outside,FALSE,FALSE
+Information,Manage information,Quality - Our team is cleaning and maintaining data and information records regularly,FALSE,FALSE
+Information,Manage information,Strategic Priority - Our quick and efficient access to critical information is a keycompetitive advantage,FALSE,FALSE
+Risk,Policy and compliance,Cybersecurity - Our company has a written and accepted cybersecurity policy in place,FALSE,FALSE
+Risk,Policy and compliance,Data Protection - Our company has data protection and policies in place,FALSE,FALSE
+Risk,Policy and compliance,Government Compliance - Our company is compliant with required regulatory information security requirements,FALSE,FALSE
+Risk,Policy and compliance,Enforcement Ability - Our security and data protection policies are part of all employees contractual agreements,FALSE,FALSE
+Risk,Policy and compliance,Strategic Priority - Addressing technology policies and compliance in a cost-effective and professional way is a competitive advantage,FALSE,FALSE
+Risk,Cybersecurity risk management,Proactivity - Our company has a disaster recovery and business continuity plan in place,FALSE,FALSE
+Risk,Cybersecurity risk management,Insurance - Our company has cybersecurity insurance in place,FALSE,FALSE
+Risk,Cybersecurity risk management,Awareness - Our people are trained continuously in managing cybersecurity risks,FALSE,FALSE
+Risk,Cybersecurity risk management,Protection - Our networks are protected by the right amount of security protocols and tools,FALSE,FALSE
+Risk,Cybersecurity risk management,Strategic Priority - The reduction ofcybersecurity risks is a competitive advantage,FALSE,FALSE
+Risk,IT infrastructure performance,Access - Our team has effi cient and effective access to company systems and data fromanywhere,FALSE,FALSE
+Risk,IT infrastructure performance,Devices - Our teams devices are efficient and secure,FALSE,FALSE
+Risk,IT infrastructure performance,"Internet - Our internet access is fast, reliable and accessible at all times",FALSE,FALSE
+Risk,IT infrastructure performance,Backup - We have backup internet access that becomes available automatically through our IT system,FALSE,FALSE
+Risk,IT infrastructure performance,Strategic Priority - Our overall IT Infrastructure allows for high productivity that is a key competitive advantage,FALSE,FALSE
+Digital Transformation Strategy,Digital transformation vision,Insights - Our people actively gather insights from different sources to stay up to date with digital trends and opportunities,FALSE,FALSE
+Digital Transformation Strategy,Digital transformation vision,"Current Reality - Our company has a candid approach to find all weaknesses, threats and issues regarding successful digital transformation",FALSE,FALSE
+Digital Transformation Strategy,Digital transformation vision,Vision - Our company has a clear vision regarding the use of digital technologies to open opportunities and grow our company,FALSE,FALSE
+Digital Transformation Strategy,Digital transformation vision,"Direction - Our company has a clear strategy to identify, develop and deploy digital tools",FALSE,FALSE
+Digital Transformation Strategy,Digital transformation vision,Alignment - Each employee understands their role in supporting and developing our digital vision,FALSE,FALSE
+Digital Transformation Strategy,Digital transformation strategy,Benchmark - Our digital maturity is measured against the best-in-class organizations,FALSE,FALSE
+Digital Transformation Strategy,Digital transformation strategy,Internal Processes - Our company has defined how to improve business processes with digital transformation initiatives,FALSE,FALSE
+Digital Transformation Strategy,Digital transformation strategy,Client Experience - Our company has defined how to improve client experience with digital transformation initiatives,FALSE,FALSE
+Digital Transformation Strategy,Digital transformation strategy,Strategy - Our company has a compelling gameplan to achieve our digital transformation vision,FALSE,FALSE
+Digital Transformation Strategy,Digital transformation strategy,Return on Investments - Improvements in Digital Maturity are directly connected to financial metrics,FALSE,FALSE
+Digital Transformation Strategy,Digital transformation roadmap,Transparency - KPIs within our digital transformation roadmap are reviewed and evaluated monthly/quarterly/annually,FALSE,FALSE
+Digital Transformation Strategy,Digital transformation roadmap,"Roadmap - Our digital transformation roadmap is well balanced with short, medium and long term goals",FALSE,FALSE
+Digital Transformation Strategy,Digital transformation roadmap,Scope - Our people planned and defined the scope of the key initiatives in our digital transformation roadmap,FALSE,FALSE
+Digital Transformation Strategy,Digital transformation roadmap,Execution - Our team members understand their roles and responsibilities in the execution of the digital transformation roadmap,FALSE,FALSE
+Digital Transformation Strategy,Digital transformation roadmap,Focus - Our Digital Transformation Roadmap helps us focus on our key initiatives,FALSE,FALSE
+Digital Transformation Strategy,Digital strategy execution,Leadership - Our company has a single person driving the execution of the digital transformation roadmap,FALSE,FALSE
+Digital Transformation Strategy,Digital strategy execution,People - The digital transformation team has been selected and formed to execute the plan,FALSE,FALSE
+Digital Transformation Strategy,Digital strategy execution,Meeting Pulse - Our management team has a weekly update with the person leading digitaltransformation,FALSE,FALSE
+Digital Transformation Strategy,Digital strategy execution,Accountability - Our digital transformation lead tracks and reports on the progress of transformation projects,FALSE,FALSE
+Digital Transformation Strategy,Digital strategy execution,Measurement - Our digital transformation lead monitors and reports on the ROI relating to digital transformation projects,FALSE,FALSE

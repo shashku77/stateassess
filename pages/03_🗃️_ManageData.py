@@ -3,7 +3,8 @@ import os
 from dotenv import load_dotenv, find_dotenv
 import streamlit as st
 import logging
-from modules.fileload import (list_files,list_all,upload_files_blobstorage,deleteblobfile,get_row_count)
+from modules.fileload import (list_files,list_all,upload_files_blobstorage,
+                              deleteblobfile,get_row_count, load_blob_vectors,loadandcreateVector,loadhtmlandcreatevector)
 from modules.auth import get_auth, get_role
 
 
@@ -77,7 +78,7 @@ else:
 
 
     
-col1, col2 ,col3,col4, col5 = st.columns([1,1,1,1,1])
+col1, col2 ,col3,col4, col5  = st.columns(5)
 with col1:
     listf = st.button("List File", disabled=disableuserstate)
     if listf:
@@ -87,7 +88,7 @@ with col2:
     if upld:
         st.session_state.action = "upld"
 with col3:
-    wecrawler = st.button("Upload url", disabled=disableuserstate)
+    wecrawler = st.button("Upload url", disabled=True)
     if wecrawler:
         st.session_state.action = "wecrawler"
 with col4:
@@ -141,15 +142,25 @@ elif st.session_state.action == "countVecRow":
     st.subheader(f"Total Vector Embeddings Count: {get_row_count()}")
   
 elif st.session_state.action == "upld" :
-    filesupd = st.file_uploader("Upload your Files ", accept_multiple_files=True)
+    filesupd = st.file_uploader("Upload your Files (only pdf) ", accept_multiple_files=True)
     if st.button("Process and Load Vectors"):
-        uploaded_files = upload_files_blobstorage(filesupd)
-        st.write(f"uploaded into blob: {uploaded_files}")
-        #for fi in filesupd:
-        #    st.write("going to load and createvector")
-        #    st.write(f"file: detail: {fi}")
-        #    result = loadandcreateVector(fi)
-        #    st.write (result) """
+        res = upload_files_blobstorage(filesupd)
+        if res["uploaded_files"]:
+            st.write(f"uploaded into blob: {res}")
+        for fi in filesupd:
+            if res["uploaded_files"]:
+                st.write(" creatingvector")
+                st.write(f"file: detail: {fi}")
+                result = loadandcreateVector(fi)
+                st.write (result) 
 
-
+elif st.session_state.action == "wecrawler":
+    urlpath = st.text_input("Provide the baseurl path 👇","https://www.quantumsmart.com/")
+    if len(urlpath) > 0 :
+        st.write(f"processing {urlpath}")
+        loadhtmlandcreatevector(urlpath)
+        
+#elif st.session_state.action == "generateVec":
+#    st.write("Going to generate vectors from storage for all")
+#    load_blob_vectors()
 

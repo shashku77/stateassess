@@ -5,7 +5,7 @@ import logging
 import streamlit as st
 import streamlit_authenticator as stauth
 from modules.conf import (get_config_data, save_config_data,
-                          CONFIG_FN, dump_dict_to_yaml_stringio
+                          CONFIG_FN
                           )
 
 
@@ -21,9 +21,13 @@ def get_auth():
     )
 
 def get_role(username: str):
-    role = (config['credentials']['usernames'][username]['role'])
-    return role
-
+    try:
+        role = (config['credentials']['usernames'][username]['role'])
+        return role
+    except Exception as e:
+        role = 'user'
+        return role
+    
 def get_login(authenticator):
     
     authenticator.login()
@@ -40,7 +44,7 @@ def get_login(authenticator):
         st.error('Username/password is incorrect')
 
 
-def get_register(authenticator):
+def get_reg(authenticator):
     try:
         if authenticator.register_user(pre_authorization=False):
             save_config_data(config)
