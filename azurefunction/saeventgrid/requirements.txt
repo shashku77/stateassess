@@ -1,0 +1,14 @@
+# Do not include azure-functions-worker in this file
+# The Python Worker is managed by the Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+# Add the specific version of langchain if available, or just the package name if the latest version is needed
+langchain
+langchain_community
+langchain_core
+langchain_openai
+psycopg2-binary
+pgvector==0.2.4
+azure-storage-blob==12.18.3
+unstructured==0.7.12
